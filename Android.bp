@@ -172,3 +172,43 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
+install_symlink {
+	name: "libem_support_jni_libem_support_jni_symlink32",
+	installed_location: "system/priv-app/EngineerMode/lib/arm/libem_support_jni.so",
+	symlink_target: "/lib/libem_support_jni.so",
+}
+
+install_symlink {
+	name: "libem_support_jni_libem_support_jni_symlink64",
+	installed_location: "system/priv-app/EngineerMode/lib64/arm64/libem_support_jni.so",
+	symlink_target: "/lib64/libem_support_jni.so",
+}
+
+install_symlink {
+	name: "libGLES_mali_vulkan.mt6785_symlink32",
+	soc_specific: true,
+	installed_location: "lib/hw/vulkan.mt6785.so",
+	symlink_target: "/vendor/lib/egl/libGLES_mali.so",
+}
+
+install_symlink {
+	name: "libSoftGatekeeper_gatekeeper.default_symlink32",
+	soc_specific: true,
+	installed_location: "lib/hw/gatekeeper.default.so",
+	symlink_target: "/vendor/lib/hw/libSoftGatekeeper.so",
+}
+
+install_symlink {
+	name: "libGLES_mali_vulkan.mt6785_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/hw/vulkan.mt6785.so",
+	symlink_target: "/vendor/lib64/egl/libGLES_mali.so",
+}
+
+install_symlink {
+	name: "libSoftGatekeeper_gatekeeper.default_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/hw/gatekeeper.default.so",
+	symlink_target: "/vendor/lib64/hw/libSoftGatekeeper.so",
+}
+

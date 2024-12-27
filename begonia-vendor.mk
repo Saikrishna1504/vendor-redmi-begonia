@@ -1907,3 +1907,11 @@ PRODUCT_PACKAGES += \
     fp_manifest.xml \
     lights-mtk-default.xml \
     manifest_android.hardware.drm@1.3-service.widevine.xml
+
+PRODUCT_PACKAGES += \
+    libem_support_jni_libem_support_jni_symlink32 \
+    libem_support_jni_libem_support_jni_symlink64 \
+    libGLES_mali_vulkan.mt6785_symlink32 \
+    libSoftGatekeeper_gatekeeper.default_symlink32 \
+    libGLES_mali_vulkan.mt6785_symlink64 \
+    libSoftGatekeeper_gatekeeper.default_symlink64
