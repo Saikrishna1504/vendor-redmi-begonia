@@ -24,9 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/lib/libmtk_vt_service.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtk_vt_service.so \
     vendor/redmi/begonia/proprietary/lib/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtk_vt_wrapper.so \
     vendor/redmi/begonia/proprietary/lib/libmtkavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkavenhancements.so \
-    vendor/redmi/begonia/proprietary/lib/libpowerhalwrap.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libpowerhalwrap.so \
-    vendor/redmi/begonia/proprietary/lib/libpowerhalwrap_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libpowerhalwrap_jni.so \
-    vendor/redmi/begonia/proprietary/lib/libpowerkeeper_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libpowerkeeper_jni.so \
     vendor/redmi/begonia/proprietary/lib/libsignal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsignal.so \
     vendor/redmi/begonia/proprietary/lib/libsink.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsink.so \
     vendor/redmi/begonia/proprietary/lib/libsource.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsource.so \
@@ -42,8 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/lib64/extractors/libmtkflvextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/extractors/libmtkflvextractor.so \
     vendor/redmi/begonia/proprietary/lib64/extractors/libmtkmp3extractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/extractors/libmtkmp3extractor.so \
     vendor/redmi/begonia/proprietary/lib64/extractors/libmtkmpeg2extractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/extractors/libmtkmpeg2extractor.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptXHD_encoder.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptX_encoder.so \
     vendor/redmi/begonia/proprietary/lib64/libaudio_param_parser-sys.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudio_param_parser-sys.so \
     vendor/redmi/begonia/proprietary/lib64/libaudiotoolkit.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudiotoolkit.so \
     vendor/redmi/begonia/proprietary/lib64/libaudioutilmtk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudioutilmtk.so \
@@ -54,93 +49,12 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/lib64/libem_wifi_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_wifi_jni.so \
     vendor/redmi/begonia/proprietary/lib64/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk_vt_wrapper.so \
     vendor/redmi/begonia/proprietary/lib64/libmtkavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkavenhancements.so \
-    vendor/redmi/begonia/proprietary/lib64/libperfctl.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libperfctl.so \
-    vendor/redmi/begonia/proprietary/lib64/libpowerhalwrap.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libpowerhalwrap.so \
-    vendor/redmi/begonia/proprietary/lib64/libpowerhalwrap_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libpowerhalwrap_jni.so \
-    vendor/redmi/begonia/proprietary/lib64/libpowerkeeper_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libpowerkeeper_jni.so \
     vendor/redmi/begonia/proprietary/lib64/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_cap.so \
     vendor/redmi/begonia/proprietary/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_capenc.so \
     vendor/redmi/begonia/proprietary/lib64/vendor.mediatek.hardware.audio@5.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.audio@5.1.so \
-    vendor/redmi/begonia/proprietary/system_ext/bin/mdlogger:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/mdlogger \
-    vendor/redmi/begonia/proprietary/system_ext/bin/rtt:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/rtt \
-    vendor/redmi/begonia/proprietary/system_ext/bin/trace:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/trace \
-    vendor/redmi/begonia/proprietary/system_ext/etc/custom.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/custom.conf \
-    vendor/redmi/begonia/proprietary/system_ext/etc/init/mdlogger.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/mdlogger.rc \
     vendor/redmi/begonia/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
-    vendor/redmi/begonia/proprietary/system_ext/lib/drm/cta/libdrmctaplugin.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/drm/cta/libdrmctaplugin.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/libaed.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libaed.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/libapuwareapusys.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libapuwareapusys.mtk.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/libapuwareutils.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libapuwareutils.mtk.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/libapuwarexrp.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libapuwarexrp.mtk.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/libarmnn_ndk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libarmnn_ndk.mtk.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/libcmdl_ndk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libcmdl_ndk.mtk.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/libdrmmtkutil.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libdrmmtkutil.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/libdrmmtkwhitelist.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libdrmmtkwhitelist.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/libjpgt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libjpgt.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/liblept.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/liblept.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/libneuron_opencv_delegate.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libneuron_opencv_delegate.mtk.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/libneuronusdk_adapter.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libneuronusdk_adapter.mtk.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/libnir_neon_driver_ndk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libnir_neon_driver_ndk.mtk.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/libpngt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libpngt.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/libtess.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libtess.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/libtflite_mtk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libtflite_mtk.mtk.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/libvpuapi.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libvpuapi.mtk.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.apuware.apusys@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.apuware.apusys@1.0.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.apuware.utils@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.apuware.utils@1.0.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.apuware.xrp@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.apuware.xrp@1.0.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.atci@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.atci@1.0.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.audio@6.1.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.camera.atms@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.camera.atms@1.0.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.camera.postproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.camera.postproc@1.0.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.dfps@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.dfps@1.0.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.gpu@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.gpu@1.0.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkpower@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkpower@1.0.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkpower@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkpower@1.1.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkradioex@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkradioex@1.0.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.nwk_opt@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.nwk_opt@1.0.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.touchll@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.touchll@1.0.so \
     vendor/redmi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.vpu@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.vpu@1.0.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/drm/cta/libdrmctaplugin.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/drm/cta/libdrmctaplugin.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/libaed.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaed.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/libapuwareapusys.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwareapusys.mtk.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/libapuwareutils.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwareutils.mtk.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/libapuwarexrp.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwarexrp.mtk.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/libarmnn_ndk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libarmnn_ndk.mtk.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/libcmdl_ndk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcmdl_ndk.mtk.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/libdrmmtkutil.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdrmmtkutil.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/libdrmmtkwhitelist.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdrmmtkwhitelist.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/libjpgt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libjpgt.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/liblept.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liblept.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/libneuron_opencv_delegate.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libneuron_opencv_delegate.mtk.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/libneuronusdk_adapter.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libneuronusdk_adapter.mtk.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/libnir_neon_driver_ndk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libnir_neon_driver_ndk.mtk.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/libpcap_bak.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libpcap_bak.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/libpngt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libpngt.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/libtess.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libtess.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/libtflite_mtk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libtflite_mtk.mtk.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/libvpuapi.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvpuapi.mtk.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.apuware.apusys@1.0.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.utils@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.apuware.utils@1.0.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.xrp@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.apuware.xrp@1.0.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.audio@6.1.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/vendor.mediatek.hardware.dfps@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.dfps@1.0.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/vendor.mediatek.hardware.gpu@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.gpu@1.0.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/vendor.mediatek.hardware.lbs@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.lbs@1.0.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/vendor.mediatek.hardware.log@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.log@1.0.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/vendor.mediatek.hardware.modemdbfilter@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.modemdbfilter@1.0.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.mtkpower@1.0.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.mtkpower@1.1.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/vendor.mediatek.hardware.mtkradioex@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.mtkradioex@1.0.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/vendor.mediatek.hardware.nwk_opt@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.nwk_opt@1.0.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/vendor.mediatek.hardware.power@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.power@2.0.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/vendor.mediatek.hardware.power@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.power@2.1.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/vendor.mediatek.hardware.touchll@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.touchll@1.0.so \
     vendor/redmi/begonia/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
-    vendor/redmi/begonia/proprietary/system_ext/lib64/vendor.mediatek.hardware.vpu@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.vpu@1.0.so \
     vendor/redmi/begonia/proprietary/vendor/app/EmCamera/lib/arm64/libem_camera_jni.so:$(TARGET_COPY_OUT_VENDOR)/app/EmCamera/lib/arm64/libem_camera_jni.so \
     vendor/redmi/begonia/proprietary/vendor/bin/SoterProvisioningTool:$(TARGET_COPY_OUT_VENDOR)/bin/SoterProvisioningTool \
     vendor/redmi/begonia/proprietary/vendor/bin/atci_service:$(TARGET_COPY_OUT_VENDOR)/bin/atci_service \
@@ -1183,7 +1097,6 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/vendor/lib64/APUWareXrpServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareXrpServer.so \
     vendor/redmi/begonia/proprietary/vendor/lib64/AVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/AVCSecureVdecCA.so \
     vendor/redmi/begonia/proprietary/vendor/lib64/VP9SecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/VP9SecureVdecCA.so \
-    vendor/redmi/begonia/proprietary/vendor/lib64/android.hardware.power-service-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.power-service-mediatek.so \
     vendor/redmi/begonia/proprietary/vendor/lib64/android.hidl.allocator@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hidl.allocator@1.0.so \
     vendor/redmi/begonia/proprietary/vendor/lib64/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/arm.graphics-V1-ndk_platform.so \
     vendor/redmi/begonia/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
