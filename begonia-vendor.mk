@@ -12,7 +12,6 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/vendor/etc/.tp/.thermal_policy_08:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.thermal_policy_08 \
     vendor/redmi/begonia/proprietary/vendor/etc/.tp/thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.conf \
     vendor/redmi/begonia/proprietary/vendor/etc/.tp/thermal.off.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.off.conf \
-    vendor/redmi/begonia/proprietary/vendor/etc/FV-SAM-MTK2.dat:$(TARGET_COPY_OUT_VENDOR)/etc/FV-SAM-MTK2.dat \
     vendor/redmi/begonia/proprietary/vendor/etc/MNL_Config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/MNL_Config.xml \
     vendor/redmi/begonia/proprietary/vendor/etc/apdb/APDB_MT6785_S01__W2041:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6785_S01__W2041 \
     vendor/redmi/begonia/proprietary/vendor/etc/apdb/APDB_MT6785_S01__W2041_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6785_S01__W2041_ENUM \
@@ -127,170 +126,11 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/vendor/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc \
     vendor/redmi/begonia/proprietary/vendor/etc/init/vpud.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vpud.rc \
     vendor/redmi/begonia/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
-    vendor/redmi/begonia/proprietary/vendor/etc/ipsec/ipsec.conf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.conf \
-    vendor/redmi/begonia/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootCA.crt \
-    vendor/redmi/begonia/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootG2.crt \
-    vendor/redmi/begonia/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootG3.crt:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootG3.crt \
-    vendor/redmi/begonia/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/Entrust.net_Certification_Authority_2048.cer:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/Entrust.net_Certification_Authority_2048.cer \
-    vendor/redmi/begonia/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/GeoTrust_PCA_G3_Root.der:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/GeoTrust_PCA_G3_Root.der \
-    vendor/redmi/begonia/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/GeoTrust_Primary_CA.der:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/GeoTrust_Primary_CA.der \
-    vendor/redmi/begonia/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/GeoTrust_Primary_CA_G2_ECC.der:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/GeoTrust_Primary_CA_G2_ECC.der \
-    vendor/redmi/begonia/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/Root-R3.cer:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/Root-R3.cer \
-    vendor/redmi/begonia/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/Root_CA_1003.crt:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/Root_CA_1003.crt \
-    vendor/redmi/begonia/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/VeriSignClass3G4.der:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/VeriSignClass3G4.der \
-    vendor/redmi/begonia/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/VeriSignClass3G5.der:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/VeriSignClass3G5.der \
-    vendor/redmi/begonia/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/VeriSignUniversalRootCertification.der:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/VeriSignUniversalRootCertification.der \
-    vendor/redmi/begonia/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/gold.cer:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/gold.cer \
-    vendor/redmi/begonia/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/thawte.der:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/thawte.der \
-    vendor/redmi/begonia/proprietary/vendor/etc/ipsec/ssl/openssl.cnf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ssl/openssl.cnf \
-    vendor/redmi/begonia/proprietary/vendor/etc/ipsec/strongswan.conf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/strongswan.conf \
     vendor/redmi/begonia/proprietary/vendor/etc/libese-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libese-nxp.conf \
     vendor/redmi/begonia/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/redmi/begonia/proprietary/vendor/etc/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-pnscr.conf \
     vendor/redmi/begonia/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/redmi/begonia/proprietary/vendor/etc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF.conf \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_MD_OTA_CONFIG.ini:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_MD_OTA_CONFIG.ini \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_GENERAL.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_GENERAL.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_1.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_1.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_10.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_10.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_100.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_100.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_1001.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_1001.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_1002.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_1002.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_1003.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_1003.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_1004.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_1004.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_101.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_101.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_102.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_102.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_103.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_103.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_104.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_104.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_105.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_105.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_106.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_106.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_107.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_107.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_108.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_108.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_109.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_109.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_11.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_11.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_110.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_110.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_111.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_111.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_112.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_112.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_113.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_113.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_114.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_114.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_115.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_115.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_116.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_116.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_117.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_117.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_118.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_118.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_119.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_119.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_12.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_12.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_120.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_120.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_121.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_121.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_122.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_122.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_123.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_123.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_124.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_124.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_125.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_125.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_126.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_126.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_127.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_127.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_128.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_128.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_129.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_129.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_130.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_130.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_131.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_131.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_132.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_132.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_133.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_133.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_134.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_134.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_135.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_135.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_136.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_136.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_137.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_137.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_138.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_138.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_139.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_139.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_140.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_140.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_141.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_141.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_143.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_143.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_144.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_144.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_145.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_145.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_146.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_146.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_147.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_147.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_148.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_148.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_149.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_149.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_15.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_15.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_150.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_150.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_151.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_151.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_152.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_152.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_153.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_153.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_154.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_154.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_155.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_155.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_156.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_156.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_157.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_157.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_158.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_158.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_159.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_159.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_16.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_16.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_160.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_160.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_161.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_161.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_162.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_162.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_163.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_163.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_164.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_164.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_165.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_165.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_166.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_166.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_167.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_167.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_168.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_168.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_169.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_169.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_17.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_17.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_170.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_170.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_171.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_171.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_172.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_172.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_173.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_173.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_174.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_174.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_175.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_175.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_176.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_176.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_177.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_177.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_178.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_178.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_179.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_179.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_18.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_18.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_180.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_180.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_181.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_181.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_182.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_182.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_183.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_183.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_184.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_184.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_185.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_185.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_186.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_186.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_187.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_187.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_188.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_188.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_189.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_189.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_19.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_19.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_190.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_190.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_191.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_191.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_192.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_192.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_193.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_193.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_194.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_194.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_195.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_195.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_196.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_196.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_197.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_197.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_198.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_198.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_199.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_199.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_2.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_2.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_20.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_20.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_200.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_200.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_201.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_201.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_202.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_202.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_203.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_203.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_204.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_204.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_205.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_205.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_206.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_206.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_207.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_207.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_208.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_208.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_209.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_209.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_210.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_210.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_211.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_211.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_212.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_212.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_213.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_213.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_222.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_222.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_223.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_223.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_224.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_224.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_225.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_225.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_3.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_3.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_5.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_5.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_50.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_50.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_6.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_6.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_7.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_7.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_8.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_8.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_9.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_9.mcfopota \
-    vendor/redmi/begonia/proprietary/vendor/etc/mdota/MTK_OTA.mcfota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OTA.mcfota \
     vendor/redmi/begonia/proprietary/vendor/etc/meow.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/meow.cfg \
     vendor/redmi/begonia/proprietary/vendor/etc/mpe.conf:$(TARGET_COPY_OUT_VENDOR)/etc/mpe.conf \
     vendor/redmi/begonia/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
@@ -385,7 +225,6 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/vendor/firmware/txpowerctrl.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/txpowerctrl.cfg \
     vendor/redmi/begonia/proprietary/vendor/firmware/wifi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi.cfg \
     vendor/redmi/begonia/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
-    vendor/redmi/begonia/proprietary/vendor/lib/modules/fmradio_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/fmradio_drv.ko \
     vendor/redmi/begonia/proprietary/vendor/thh/ta/0102030405060708090a0b0c0d0e0f10.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/0102030405060708090a0b0c0d0e0f10.ta \
     vendor/redmi/begonia/proprietary/vendor/thh/ta/020b0000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/020b0000000000000000000000000000.ta \
     vendor/redmi/begonia/proprietary/vendor/thh/ta/020f0000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/020f0000000000000000000000000000.ta \
@@ -1233,7 +1072,6 @@ PRODUCT_PACKAGES += \
     mtk_agpsd \
     muxreport \
     netdagent \
-    netdc \
     nvram_daemon \
     osal_ut \
     pnscr \
